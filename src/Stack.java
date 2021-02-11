@@ -1,11 +1,9 @@
 class Stack {
-    private class Node {
+    private class Node{
         private int data;
-        private Node next = null;
+        private Node next;
 
-        Node(int data){
-            this.data = data;
-        }
+        Node(int data){ this.data = data;}
     }
 
     private Node top;
